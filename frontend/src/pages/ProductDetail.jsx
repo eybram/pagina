@@ -4,6 +4,7 @@ import Loading from '../components/Loading';
 import ErrorMessage from '../components/ErrorMessage';
 import { useCart } from '../context/CartContext';
 import { getProducto } from '../services/api';
+import productImages from '../utils/productImages';
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -31,8 +32,11 @@ export default function ProductDetail() {
     <main className="page product-detail">
       <Link to="/" className="back-link">← Volver al catálogo</Link>
       <div className="detail-layout">
-        <div className="detail-image" aria-hidden="true">
-          {producto.nombre_categoria?.[0]}
+        <div className="detail-image">
+          <img
+            src={productImages[producto.id_producto]}
+            alt={producto.nombre_producto}
+          />
         </div>
         <div className="detail-info">
           <span className="product-tag">{producto.nombre_franquicia}</span>

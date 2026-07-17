@@ -319,6 +319,14 @@ select {
   font-size: 5rem;
   font-weight: 700;
   color: var(--accent-light);
+  overflow: hidden;
+}
+
+.detail-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .quantity-row {

@@ -19,13 +19,13 @@ export const franquicias = [
 export const productos = [
   { id_producto: 'PR1', nombre_producto: 'Camiseta Zelda Master Sword', id_categoria: 'CAT1', id_franquicia: 'FR1', precio: 25.0, stock: 50, id_proveedor: 'EM1', nombre_categoria: 'Camiseta', nombre_franquicia: 'Zelda' },
   { id_producto: 'PR2', nombre_producto: 'Figura Funko de Kratos', id_categoria: 'CAT2', id_franquicia: 'FR2', precio: 35.0, stock: 30, id_proveedor: 'EM4', nombre_categoria: 'Figura', nombre_franquicia: 'God of War' },
-  { id_producto: 'PR3', nombre_producto: 'Llavero Pokéball', id_categoria: 'CAT3', id_franquicia: 'FR3', precio: 10.0, stock: 80, id_proveedor: 'EM1', nombre_categoria: 'Llavero', nombre_franquicia: 'Pokémon' },
+  { id_producto: 'PR3', nombre_producto: 'Llavero Pokeball', id_categoria: 'CAT3', id_franquicia: 'FR3', precio: 10.0, stock: 80, id_proveedor: 'EM1', nombre_categoria: 'Llavero', nombre_franquicia: 'Pokémon' },
   { id_producto: 'PR4', nombre_producto: 'Poster Halo Infinite', id_categoria: 'CAT4', id_franquicia: 'FR4', precio: 12.0, stock: 40, id_proveedor: 'EM3', nombre_categoria: 'Poster', nombre_franquicia: 'Halo' },
   { id_producto: 'PR5', nombre_producto: 'Figura de Mario Kart', id_categoria: 'CAT2', id_franquicia: 'FR5', precio: 28.0, stock: 25, id_proveedor: 'EM1', nombre_categoria: 'Figura', nombre_franquicia: 'Nintendo' },
   { id_producto: 'PR6', nombre_producto: 'Camiseta de Starfield', id_categoria: 'CAT1', id_franquicia: 'FR6', precio: 22.0, stock: 35, id_proveedor: 'EM2', nombre_categoria: 'Camiseta', nombre_franquicia: 'Bethesda' },
   { id_producto: 'PR7', nombre_producto: 'Llavero de Creeper', id_categoria: 'CAT3', id_franquicia: 'FR7', precio: 8.0, stock: 120, id_proveedor: 'EM5', nombre_categoria: 'Llavero', nombre_franquicia: 'Minecraft' },
   { id_producto: 'PR8', nombre_producto: 'Figura Funko de Pikachu', id_categoria: 'CAT2', id_franquicia: 'FR3', precio: 32.0, stock: 20, id_proveedor: 'EM4', nombre_categoria: 'Figura', nombre_franquicia: 'Pokémon' },
-  { id_producto: 'PR9', nombre_producto: 'Poster de God of War Ragnarök', id_categoria: 'CAT4', id_franquicia: 'FR2', precio: 15.0, stock: 18, id_proveedor: 'EM5', nombre_categoria: 'Poster', nombre_franquicia: 'God of War' },
+  { id_producto: 'PR9', nombre_producto: 'Poster de God of War Ragnarok', id_categoria: 'CAT4', id_franquicia: 'FR2', precio: 15.0, stock: 18, id_proveedor: 'EM5', nombre_categoria: 'Poster', nombre_franquicia: 'God of War' },
   { id_producto: 'PR10', nombre_producto: 'Camiseta de Hollow Knight', id_categoria: 'CAT1', id_franquicia: 'FR8', precio: 20.0, stock: 60, id_proveedor: 'EM2', nombre_categoria: 'Camiseta', nombre_franquicia: 'Hollow Knight' },
 ];
 

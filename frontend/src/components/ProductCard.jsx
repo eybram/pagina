@@ -1,23 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
+import productImages from '../utils/productImages';
 
 export default function ProductCard({ producto }) {
   const { addItem } = useCart();
   const lowStock = producto.stock > 0 && producto.stock <= 10;
   const outOfStock = producto.stock === 0;
-  const productImages = {
-  PR1: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR2: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR3: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR4: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR5: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR6: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR7: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR8: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR9: 'https://tu-link-directo-a-la-imagen.jpg',
-  PR10: 'https://tu-link-directo-a-la-imagen.jpg',
-};
-
   return (
     <article className="product-card">
       <div className="product-image">
