@@ -45,3 +45,4 @@ La referencia principal del proyecto está en:
 ## Estado del proyecto
 
 El proyecto sigue en desarrollo, con la documentación y la estructura base alineadas con las nuevas directrices académicas.
+- subido en github
