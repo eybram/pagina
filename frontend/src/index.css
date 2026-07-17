@@ -510,3 +510,14 @@ select {
     position: static;
   }
 }
+
+.product-image {
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
